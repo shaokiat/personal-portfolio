@@ -1,15 +1,20 @@
-import React from 'react'
-
-// components
-import MyNavbar from "./components/my-navbar/mynavbar.component";
-
+import React from 'react';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home';
 
-const App = () => {
-  return (<div>
-
-    <MyNavbar />
-    My Portfolio</div>);
+function App() {
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+        </Switch>
+      </Router>
+    </>
+  );
 }
 
 export default App;
