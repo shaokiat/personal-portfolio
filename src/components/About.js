@@ -14,7 +14,8 @@ function About() {
                         <div className="text">I'm Shao Kiat and I'm a Programmer</div>
                         <p>This is my portfolio website! Check me out!</p>
                         <p>I am a Year 2 Computer Science Undergraduate at National University
-                            of Singapore and this is my attempt at building a portfolio website using React.js</p>
+                        of Singapore and this is my attempt at building a portfolio website using React.js.
+                            I enjoy exploring new programming ideas and trying out new programming languages.</p>
                         <a href="#">Download CV</a>
                     </div>
                 </div>
