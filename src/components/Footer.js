@@ -7,16 +7,10 @@ function Footer() {
     return (
         <div className="footer-container">
             <section className="footer-subscription">
-                <p className="footer-subscription-heading">
-                    Join the Adventure Newsletter to receive our best vacation deals
-                </p>
-                <p className="footer-subscription-text">
-                    You can unsubscribe at any time.
-                </p>
                 <div className="input-areas">
                     <form className="">
                         <input type="email" name="email" placeholder="Your Email" className="footer-input" />
-                        <Button buttonStyle="btn--outline">Subscribe</Button>
+                        <Button buttonStyle="btn--outline">Contact Me</Button>
                     </form>
                 </div>
             </section>
@@ -25,7 +19,7 @@ function Footer() {
                     <div class='footer-logo'>
                         <Link to='/' className='social-logo'>
                             Shao Kiat
-              <i class='fab fa-typo3' />
+                        <i class='fab fa-typo3' />
                         </Link>
                     </div>
                     <div class='social-icons'>

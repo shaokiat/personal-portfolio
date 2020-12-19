@@ -4,9 +4,9 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import About from '../About';
 import Cards from '../Cards';
+import Contact from '../Contact';
 import Footer from '../Footer';
 import { Component } from 'react';
-import { Link } from 'react-scroll';
 
 class Home extends Component {
 
@@ -16,6 +16,7 @@ class Home extends Component {
                 <HeroSection />
                 <About />
                 <Cards />
+                <Contact />
                 <Footer />
             </div>
         );
