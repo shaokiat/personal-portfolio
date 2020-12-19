@@ -1,32 +1,21 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
     return (
-        <div className='hero-container'>
-            <video src='/videos/video-2.mp4' autoPlay loop muted />
-            <h1>Personal Portfolio Page</h1>
-            <p>Lim Shao Kiat</p>
-            <div className='hero-btns'>
-                <Button
-                    className='btns'
-                    buttonStyle='btn--outline'
-                    buttonSize='btn--large'
-                >
-                    GET STARTED
-                </Button>
-                <Button
-                    className='btns'
-                    buttonStyle='btn--primary'
-                    buttonSize='btn--large'
-                    onClick={console.log('hey')}
-                >
-                    WATCH TRAILER <i className='far fa-play-circle' />
-                </Button>
+        <section className='home'>
+            <video src='/videos/video-1.mp4' autoPlay loop muted />
+            {/* <h1>Personal Portfolio Page</h1>
+            <p>Lim Shao Kiat</p> */}
+            <div className="max-width">
+                <div className="content">
+                    <div className="text-1">Hello, my name is</div>
+                    <div className="text-2">Shao Kiat</div>
+                    <div className="text-3">And I'm a Computer Science Undergraduate</div>
+                </div>
             </div>
-        </div>
+        </section>
     );
 }
 
