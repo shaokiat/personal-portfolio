@@ -25,15 +25,6 @@ video {
 
   } 
 
-/* home section styling */
-.home{
-  display: flex;
-  height: 100vh;
-  color: #fff;
-  min-height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
-}
 .max-width{
   margin: auto 0 auto 100px;
   margin-top: 300px;
