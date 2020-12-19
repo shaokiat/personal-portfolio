@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll';
 
 import './Navbar.css'
 
@@ -29,7 +30,16 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+
+                    <Link
+                        activeClass="active"
+                        to="main"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="navbar-logo" onClick={closeMobileMenu}
+                    >
                         Shao Kiat <i className="fab fa-typo3" />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -37,22 +47,54 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu} >
+                            <Link
+                                activeClass="active"
+                                to="main"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="nav-links" onClick={closeMobileMenu}
+                            >
                                 Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/about' className='nav-links' onClick={closeMobileMenu} >
+                            <Link
+                                activeClass="active"
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="nav-links" onClick={closeMobileMenu}
+                            >
                                 About Me
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu} >
+                            <Link
+                                activeClass="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="nav-links" onClick={closeMobileMenu}
+                            >
                                 Projects
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu} >
+                            <Link
+                                activeClass="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="nav-links" onClick={closeMobileMenu}
+                            >
                                 Contact
                             </Link>
                         </li>

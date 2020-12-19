@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 import '../../App.css'
 
-export default function Projects() {
-    return <h1 className="projects">Projects
-    </h1>;
+class Projects extends Component {
+    render() {
+        return (
+            <div className="projects" id="projects">
+                Projects
+            </div>
+        );
+    }
 }
+
+export default Projects;

@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 import '../../App.css'
 
-export default function Contact() {
-    return <h1 className="contact">Contact
-    </h1>;
+class Contact extends Component {
+    render() {
+        return (
+            <div className="contact" id="contact">
+                Contact
+            </div>
+        );
+    }
 }
+
+export default Contact;

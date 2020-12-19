@@ -4,8 +4,9 @@ import './Cards.css';
 
 function Cards() {
     return (
-        <div className="cards">
-            <h1>Check out these</h1>
+
+        <div id="projects" className="cards">
+            <h1>These are my Projects</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">

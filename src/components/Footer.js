@@ -29,22 +29,21 @@ function Footer() {
                         </Link>
                     </div>
                     <div class='social-icons'>
-                        <Link
+                        <a
                             class='social-icon-link github'
-                            to={{ pathname: "https://github.com/shaokiat" }}
-                            target='_blank'
+                            href="https://github.com/shaokiat"
                             aria-label='GitHub'
                         >
                             <i class='fab fa-github' />
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             class='social-icon-link linkedin'
-                            to={{ pathname: "https://www.linkedin.com/in/shaokiat/" }}
+                            href="https://www.linkedin.com/in/shaokiat/"
                             target='_blank'
                             aria-label='LinkedIn'
                         >
                             <i class='fab fa-linkedin' />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
