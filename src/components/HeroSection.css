@@ -71,3 +71,15 @@ video {
       width: 100%;
     }
   }
+
+  @media (max-width: 500px) {
+    .text-1 {
+      font-size: 20px;
+    }
+    .text-2 {
+        font-size: 50px;
+    }
+    .text-3 {
+        font-size: 27px;
+    }
+  }
