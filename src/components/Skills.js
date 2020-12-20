@@ -71,6 +71,10 @@ function Skills() {
                         <i style={{ "color": "#F0DB4F" }} class='fab fa-js-square' />
                         <div className="on-hover" id="on-hover">JavaScript</div>
                     </div>
+                    <div className="icon-style">
+                        <i style={{ "color": "#264de4" }} class='fab fa-css3-alt' />
+                        <div className="on-hover" id="on-hover">CSS</div>
+                    </div>
                 </div>
             </div>
         </section >
