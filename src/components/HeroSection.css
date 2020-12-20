@@ -13,7 +13,7 @@ video {
     /* background: url('/src/images/img-home.jpg') 
     center center/cover no-repeat; */
     color: white;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     display: flex;
     flex-direction: column;
