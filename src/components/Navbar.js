@@ -74,6 +74,19 @@ function Navbar() {
                         <li className="nav-item">
                             <Link
                                 activeClass="active"
+                                to="skills"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="nav-links" onClick={closeMobileMenu}
+                            >
+                                My Skills
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                activeClass="active"
                                 to="projects"
                                 spy={true}
                                 smooth={true}

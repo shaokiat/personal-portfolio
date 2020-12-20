@@ -3,6 +3,7 @@ import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import About from '../About';
+import Skills from '../Skills';
 import Cards from '../Cards';
 import Contact from '../Contact';
 import Footer from '../Footer';
@@ -15,6 +16,7 @@ class Home extends Component {
             <div id="main">
                 <HeroSection />
                 <About />
+                <Skills />
                 <Cards />
                 <Contact />
                 <Footer />

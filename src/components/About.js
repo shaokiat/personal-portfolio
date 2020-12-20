@@ -4,7 +4,7 @@ import './About.css';
 function About() {
     return (
         <section id="about" className='about'>
-            <div className="about-container">
+            <div className="max-width">
                 <h1 className="about-title">About Me</h1>
                 <div className="about-content">
                     <div className="column left">
@@ -16,7 +16,7 @@ function About() {
                         <p>I am a Year 2 Computer Science Undergraduate at National University
                         of Singapore and this is my attempt at building a portfolio website using React.js.
                             I enjoy exploring new programming ideas and trying out new programming languages.</p>
-                        <a href="#">Download CV</a>
+                        <a href="#">Dummy Button</a>
                     </div>
                 </div>
             </div>

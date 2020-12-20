@@ -18,7 +18,7 @@
       margin-bottom: 20px;
   }
 
-  .about-container {
+  .max-width {
     max-width: 1300px;
     padding: 0 60px;
     margin: auto;
@@ -75,3 +75,32 @@
       margin-bottom: 10px;
       font-family: 'Poppins', sans-serif;
   }
+
+  @media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+  }
+  @media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+  }
+
+  @media (max-width: 947px){
+    .max-width{
+      max-width: 930px;
+  }
+  .about .about-content .column{
+    width: 100%;
+  }
+  .about .about-content .left{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 60px;
+  }
+  .about .about-content .right{
+      flex: 100%;
+  }
+}
