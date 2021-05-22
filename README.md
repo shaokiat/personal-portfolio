@@ -4,8 +4,6 @@
 
 ## About
 
-[Shao Kiat's Portfolio Website](https://portfolio-shaokiat.herokuapp.com/)
-
 This is a self-initiated project to learn how to build a website using React.js and CSS.
 
 Started on year 2 winter break Dec 2020
