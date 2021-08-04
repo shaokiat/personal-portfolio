@@ -33,7 +33,6 @@ function Footer() {
                         <a
                             class='social-icon-link linkedin'
                             href="https://www.linkedin.com/in/shaokiat/"
-                            target='_blank'
                             aria-label='LinkedIn'
                         >
                             <i class='fab fa-linkedin' />
