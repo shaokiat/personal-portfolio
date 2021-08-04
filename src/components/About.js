@@ -16,7 +16,7 @@ function About() {
                         <p>I am a Year 2 Computer Science Undergraduate at National University
                         of Singapore and this is my attempt at building a portfolio website using React.js.
                             I enjoy exploring new programming ideas and trying out new programming languages.</p>
-                        <a href="#">Dummy Button</a>
+                        <a href="#top">Dummy Button</a>
                     </div>
                 </div>
             </div>
