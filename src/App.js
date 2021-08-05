@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
         </Switch>
       </Router>
     </>

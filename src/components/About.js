@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 function About() {
@@ -16,7 +17,7 @@ function About() {
                         <p>I am a Year 2 Computer Science Undergraduate at National University
                         of Singapore and this is my attempt at building a portfolio website using React.js.
                             I enjoy exploring new programming ideas and trying out new programming languages.</p>
-                        <a href="#top">Dummy Button</a>
+                        <Link to="Resume.pdf" target="_blank" download>Download Resume</Link>
                     </div>
                 </div>
             </div>

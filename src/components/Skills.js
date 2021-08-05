@@ -1,4 +1,5 @@
 import React from 'react';
+import { DiMongodb } from "react-icons/di";
 import './Skills.css';
 
 function Skills() {
@@ -9,10 +10,18 @@ function Skills() {
                 <div className="skills-content">
                     <div className="column left">
                         <div className="text">My Creative Skills and Experiences</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <a href="#">Dummy Button</a>
+                            <p>2021 Summer internship at the Data Science team in Micron gave me a strong introduction to solving real-world problems with data science and I get to experienced Machine Learning concepts together with data visualization tools.</p>
+                            <p>Practiced Software Engineering concepts taught in school through the development of a Hall-wide web application. Implemented backend capabilities using Non-SQL MongoDB database.</p>
+                        <a href="https://github.com/shaokiat">Check out my GitHub</a>
                     </div>
                     <div className="column right">
+                        <div className="bars">
+                            <div className="info">
+                                <span>Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div className="line python"></div>
+                        </div>
                         <div className="bars">
                             <div className="info">
                                 <span>Java</span>
@@ -27,13 +36,7 @@ function Skills() {
                             </div>
                             <div className="line js"></div>
                         </div>
-                        <div className="bars">
-                            <div className="info">
-                                <span>Python</span>
-                                <span>70%</span>
-                            </div>
-                            <div className="line python"></div>
-                        </div>
+                        
                         <div className="bars">
                             <div className="info">
                                 <span>HTML</span>
@@ -74,6 +77,10 @@ function Skills() {
                     <div className="icon-style">
                         <i style={{ "color": "#264de4" }} class='fab fa-css3-alt' />
                         <div className="on-hover" id="on-hover">CSS</div>
+                    </div>
+                    <div className="icon-style">
+                        <div > <DiMongodb style={{color:'#589636'}} /> </div>
+                        <div className="on-hover" id="on-hover">MongoDB</div>
                     </div>
                 </div>
             </div>
