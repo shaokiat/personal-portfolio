@@ -1,10 +1,9 @@
 import React from 'react';
-import CardItem from './CardsItem';
+import CardItem from './CardItem';
 import './Cards.css';
 
 function Cards() {
     return (
-
         <div id="projects" className="cards">
             <h1>My Projects</h1>
             <div className="cards__container">
