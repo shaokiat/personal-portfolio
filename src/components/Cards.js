@@ -39,7 +39,6 @@ function Cards() {
                             src="images/img-7.jpg"
                             text="Explore the hidden waterfall deep inside the Amazon Jungle"
                             label="Adventure"
-                            path="/projects"
                         />
                     </ul>
                 </div>
