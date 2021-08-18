@@ -6,14 +6,14 @@ import './Footer.css'
 function Footer() {
     return (
         <div className="footer-container">
-            <section className="footer-subscription">
+            {/* <section className="footer-subscription">
                 <div className="input-areas">
                     <form className="">
                         <input type="email" name="email" placeholder="Your Email" className="footer-input" />
                         <Button buttonStyle="btn--outline">Contact Me</Button>
                     </form>
                 </div>
-            </section>
+            </section> */}
             <section class='social-media'>
                 <div class='social-media-wrap'>
                     <div class='footer-logo'>
