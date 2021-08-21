@@ -33,7 +33,7 @@
   }
   
   .cards__item__link {
-    display: flex;
+    /* display: block; */
     flex-flow: column;
     width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
@@ -93,7 +93,7 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 0px 30px 0px;
   }
   
   .cards__item__text {
@@ -117,5 +117,10 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+    .cards__item__text {
+      color: #252e48;
+      font-size: 16px;
+      line-height: 18px;
     }
   }
