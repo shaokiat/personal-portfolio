@@ -8,20 +8,9 @@ This is a self-initiated project to learn how to build a website using React.js 
 
 Started on year 2 winter break Dec 2020
 
-Link to the setup [Guide](https://github.com/shaokiat/guide)
+Link to the setup [Guide](https://github.com/shaokiat/personal-portfolio/blob/main/guide.md)
 
 Deployed on Heroku
-
-<br>
-
-## Things to add
-
-- CV and Resume
-- Creative Skills and Experiences
-- Projects
-- Contact details
-
-<br>
 
 ## Resources referenced
 
