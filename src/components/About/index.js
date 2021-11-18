@@ -9,7 +9,7 @@ function About() {
         <h1 className="about-title">About Me</h1>
         <div className="about-content">
           <div className="column left">
-            <img src="images/portrait2.jpg" alt="" />
+            <img src="images/portrait3.jpg" alt="" />
           </div>
           <div className="column right">
             <div className="text">I'm Shao Kiat and I'm a Programmer</div>
@@ -20,7 +20,7 @@ function About() {
               portfolio website using React.js. I enjoy exploring new
               programming ideas and trying out the latest programming packages.
             </p>
-            <Link to="Resume.pdf" target="_blank" download>
+            <Link to="/Resume.pdf" target="_blank">
               Download Resume
             </Link>
           </div>
