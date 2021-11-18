@@ -21,7 +21,13 @@ function Skills() {
               the development of a Hall-wide web application. Implemented
               backend capabilities using Non-SQL MongoDB database.
             </p>
-            <a href="https://github.com/shaokiat">Check out my GitHub</a>
+            <a
+              href="https://github.com/shaokiat"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check out my GitHub
+            </a>
           </div>
           <div className="column right">
             <div className="bars">
