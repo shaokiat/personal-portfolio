@@ -12,17 +12,22 @@ function About() {
             <img src="images/portrait3.jpg" alt="" />
           </div>
           <div className="column right">
-            <div className="text">I'm Shao Kiat and I'm a Programmer</div>
+            <div className="text">Hi there! I'm Shao Kiat!</div>
             <p>This is my portfolio website! Check me out!</p>
             <p>
               I am a Penultimate Computer Science Undergraduate at National
               University of Singapore and this is my attempt at building a
               portfolio website using React.js. I enjoy exploring new
-              programming ideas and trying out the latest programming packages.
+              programming ideas and documenting my progress as an aspiring
+              software engineer.
             </p>
-            <Link to="/Resume.pdf" target="_blank">
-              Download Resume
-            </Link>
+            <a
+              href="https://shaokiat.github.io/shaokiat-blog/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check out my Blog
+            </a>
           </div>
         </div>
       </div>
