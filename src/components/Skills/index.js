@@ -30,39 +30,40 @@ function Skills() {
             </a>
           </div>
           <div className="column right">
+          <div className="bars">
+              <div className="info">
+                <span>JS</span>
+                <span>85%</span>
+              </div>
+              <div className="line js"></div>
+            </div>
             <div className="bars">
               <div className="info">
                 <span>Python</span>
-                <span>85%</span>
+                <span>80%</span>
               </div>
               <div className="line python"></div>
             </div>
             <div className="bars">
               <div className="info">
                 <span>Java</span>
-                <span>80%</span>
+                <span>70%</span>
               </div>
               <div className="line java"></div>
             </div>
-            <div className="bars">
-              <div className="info">
-                <span>JS</span>
-                <span>70%</span>
-              </div>
-              <div className="line js"></div>
-            </div>
+            
 
             <div className="bars">
               <div className="info">
                 <span>HTML</span>
-                <span>50%</span>
+                <span>70%</span>
               </div>
               <div className="line html"></div>
             </div>
             <div className="bars">
               <div className="info">
                 <span>CSS</span>
-                <span>50%</span>
+                <span>65%</span>
               </div>
               <div className="line css"></div>
             </div>
