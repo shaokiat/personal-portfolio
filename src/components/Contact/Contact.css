@@ -1,62 +1,62 @@
 .contact {
-    background: #fff;
-    padding: 50px 0;
-    font-family: 'Poppins', sans-serif;
-  }
+  background: #fff;
+  padding: 50px 0;
+  font-family: "Poppins", sans-serif;
+}
 
-  h1 {
-    text-align: center;
-      font-size: 40px;
-      font-weight: 500;
-  }
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
 
-  .max-width {
-    max-width: 1300px;
-    padding: 0 60px;
-    margin: auto;
-  }
+.max-width {
+  max-width: 1300px;
+  padding: 0 60px;
+  margin: auto;
+}
 
-  .contact-content {
-      align-items: center;
-      justify-content: center;
-      display: flex;
-  }
+.contact-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
-  /* Social Icons */
-  .social-icon-link-github {
-    color: #211f1f;
-    font-size: 100px;
-  }
+/* Social Icons */
+.social-icon-link-github {
+  color: #211f1f;
+  font-size: 3rem;
+}
 
+.social-icon-link-linkedin {
+  color: #0e76a8;
+  font-size: 3rem;
+}
+
+@media (max-width: 500px) {
+  .social-icon-link-github,
   .social-icon-link-linkedin {
-    color: #0e76a8;
-    font-size: 100px;
+    font-size: 2rem;
   }
+}
 
-  @media (max-width: 500px) {
-    .social-icon-link-github , .social-icon-link-linkedin {
-      font-size: 50px;
-    }
-  }
-  
-  .social-media {
-    max-width: 1000px;
-    width: 100%;
-  }
-  
-  .social-media-wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto 0 auto;
-  }
-  
-  .social-icons-contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 200px;
-  }
-  
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.social-icons-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+}

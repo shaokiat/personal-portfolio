@@ -16,7 +16,6 @@ function About() {
             <p>This is my portfolio website! Check me out!</p>
             <p>
               I am a Penultimate Computer Science Undergraduate at National
-              University of Singapore and this is my attempt at building a
               portfolio website using React.js. I enjoy exploring new
               programming ideas and documenting my progress as an aspiring
               software engineer.
