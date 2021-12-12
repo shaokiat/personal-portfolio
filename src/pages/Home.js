@@ -4,9 +4,9 @@ import '../App.css';
 import HeroSection from '../components/HeroSection';
 import About from '../components/About';
 import Skills from '../components/Skills';
-import Cards from '../components/Cards';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Projects from '../components/Projects';
 
 const Home = function () {
   return (
@@ -14,7 +14,7 @@ const Home = function () {
       <HeroSection />
       <About />
       <Skills />
-      <Cards />
+      <Projects />
       <Contact />
       <Footer />
     </div>

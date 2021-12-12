@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaNodeJs } from 'react-icons/fa';
 import {
-  SiTypescript, SiJavascript, SiGraphql, SiHtml5, SiCss3, SiMongodb, SiApollographql,
+  SiTypescript, SiJavascript, SiGraphql, SiHtml5, SiCss3, SiMongodb, SiApollographql, SiNodedotjs, SiReact,
 } from 'react-icons/si';
 
 import './Skills.css';
@@ -79,7 +78,7 @@ const Skills = function () {
           <div className="tech-stack-header">Frontend</div>
           <div className="icons-gallery">
             <div className="icon-style">
-              <i style={{ color: '#61DBFB' }} className="fab fa-react" />
+              <SiReact size={50} style={{ color: '#61DBFB' }} />
               <div className="on-hover" id="on-hover">
                 React
               </div>
@@ -123,7 +122,7 @@ const Skills = function () {
           <div className="icons-gallery">
             <div className="icon-style">
               <div>
-                <FaNodeJs size={50} style={{ color: '#3C873A' }} />
+                <SiNodedotjs size={50} style={{ color: '#3C873A' }} />
               </div>
               <div className="on-hover" id="on-hover">
                 NodeJS
@@ -159,7 +158,7 @@ const Skills = function () {
             </div>
             <div className="icon-style">
               <div>
-                <SiMongodb style={{ color: '#589636' }} />
+                <SiMongodb size={50} style={{ color: '#589636' }} />
               </div>
               <div className="on-hover" id="on-hover">
                 MongoDB
