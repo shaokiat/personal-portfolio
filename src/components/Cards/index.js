@@ -1,8 +1,8 @@
-import React from "react";
-import CardItem from "../CardItem";
-import "../Cards/Cards.css";
+import React from 'react';
+import CardItem from '../CardItem';
+import './Cards.css';
 
-function Cards() {
+const Cards = function () {
   return (
     <div id="projects" className="cards">
       <h1>My Projects</h1>
@@ -45,6 +45,6 @@ function Cards() {
       </div>
     </div>
   );
-}
+};
 
 export default Cards;

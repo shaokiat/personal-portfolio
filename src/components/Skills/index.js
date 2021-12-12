@@ -1,8 +1,12 @@
-import React from "react";
-import { DiMongodb } from "react-icons/di";
-import "./Skills.css";
+import React from 'react';
+import { FaNodeJs } from 'react-icons/fa';
+import {
+  SiTypescript, SiJavascript, SiGraphql, SiHtml5, SiCss3, SiMongodb, SiApollographql,
+} from 'react-icons/si';
 
-function Skills() {
+import './Skills.css';
+
+const Skills = function () {
   return (
     <section id="skills" className="skills">
       <div className="max-width">
@@ -21,6 +25,9 @@ function Skills() {
               the development of a Hall-wide web application. Implemented
               backend capabilities using Non-SQL MongoDB database.
             </p>
+            <p>
+              Currently contributing to a local start-up working on a web project.
+            </p>
             <a
               href="https://github.com/shaokiat"
               target="_blank"
@@ -30,97 +37,161 @@ function Skills() {
             </a>
           </div>
           <div className="column right">
-          <div className="bars">
+            <div className="bars">
               <div className="info">
                 <span>JS</span>
                 <span>85%</span>
               </div>
-              <div className="line js"></div>
+              <div className="line js" />
             </div>
             <div className="bars">
               <div className="info">
                 <span>Python</span>
                 <span>80%</span>
               </div>
-              <div className="line python"></div>
+              <div className="line python" />
             </div>
             <div className="bars">
               <div className="info">
                 <span>Java</span>
                 <span>70%</span>
               </div>
-              <div className="line java"></div>
+              <div className="line java" />
             </div>
-            
 
             <div className="bars">
               <div className="info">
                 <span>HTML</span>
                 <span>70%</span>
               </div>
-              <div className="line html"></div>
+              <div className="line html" />
             </div>
             <div className="bars">
               <div className="info">
                 <span>CSS</span>
                 <span>65%</span>
               </div>
-              <div className="line css"></div>
+              <div className="line css" />
             </div>
           </div>
         </div>
-        <div className="icons-gallery-top">
-          <div className="icon-style">
-            <i style={{ color: "#61DBFB" }} class="fab fa-react" />
-            <div className="on-hover" id="on-hover">
-              React
+        <div className="tech-stack-container">
+          <div className="tech-stack-header">Frontend</div>
+          <div className="icons-gallery">
+            <div className="icon-style">
+              <i style={{ color: '#61DBFB' }} className="fab fa-react" />
+              <div className="on-hover" id="on-hover">
+                React
+              </div>
+            </div>
+            <div className="icon-style">
+              <div>
+                <SiTypescript size={50} style={{ color: '#007acc' }} />
+              </div>
+              <div className="on-hover" id="on-hover">
+                TypeScript
+              </div>
+            </div>
+            <div className="icon-style">
+              <SiJavascript size={50} style={{ color: '#F0DB4F' }} />
+              <div className="on-hover" id="on-hover">
+                JavaScript
+              </div>
+            </div>
+            <div className="icon-style">
+              <div>
+                <SiHtml5 size={50} style={{ color: '#E10098' }} />
+              </div>
+              <div className="on-hover" id="on-hover">
+                HTML
+              </div>
+            </div>
+            <div className="icon-style">
+              <SiCss3 size={50} style={{ color: '#264de4' }} />
+              <div className="on-hover" id="on-hover">
+                CSS
+              </div>
+            </div>
+            <div className="icon-style">
+              <img src="/images/nextjs.svg" alt="" style={{ width: 70, height: 50 }} />
+              <div className="on-hover" id="on-hover">
+                NextJS
+              </div>
             </div>
           </div>
-          <div className="icon-style">
-            <i style={{ color: "#306998" }} class="fab fa-python" />
-            <div className="on-hover" id="on-hover">
-              Python
+          <div className="tech-stack-header">Backend</div>
+          <div className="icons-gallery">
+            <div className="icon-style">
+              <div>
+                <FaNodeJs size={50} style={{ color: '#3C873A' }} />
+              </div>
+              <div className="on-hover" id="on-hover">
+                NodeJS
+              </div>
+            </div>
+            <div className="icon-style">
+              <div>
+                <SiGraphql size={50} style={{ color: '#E10098' }} />
+              </div>
+              <div className="on-hover" id="on-hover">
+                GraphQL
+              </div>
+            </div>
+            <div className="icon-style">
+              <div>
+                <SiApollographql size={50} style={{ color: '#E10098' }} />
+              </div>
+              <div className="on-hover" id="on-hover">
+                Apollo
+              </div>
+            </div>
+            <div className="icon-style">
+              <i style={{ color: '#306998' }} className="fab fa-python" />
+              <div className="on-hover" id="on-hover">
+                Python
+              </div>
+            </div>
+            <div className="icon-style">
+              <i style={{ color: '#f89820' }} className="fab fa-java" />
+              <div className="on-hover" id="on-hover">
+                Java
+              </div>
+            </div>
+            <div className="icon-style">
+              <div>
+                <SiMongodb style={{ color: '#589636' }} />
+              </div>
+              <div className="on-hover" id="on-hover">
+                MongoDB
+              </div>
             </div>
           </div>
-          <div className="icon-style">
-            <i style={{ color: "#F1502F" }} class="fab fa-git-alt" />
-            <div className="on-hover" id="on-hover">
-              Git
+          <div className="tech-stack-header">Others</div>
+          <div className="icons-gallery">
+            <div className="icon-style">
+              <i style={{ color: '#F1502F' }} className="fab fa-git-alt" />
+              <div className="on-hover" id="on-hover">
+                Git
+              </div>
+            </div>
+            <div className="icon-style">
+              <img src="/images/sklearn.svg" alt="" style={{ width: 80 }} />
+              <div className="on-hover" id="on-hover">
+                sklearn
+              </div>
+            </div>
+            <div className="icon-style">
+              <img src="/images/streamlit.png" alt="" style={{ width: 70 }} />
+              <div className="on-hover" id="on-hover">
+                Streamlit
+              </div>
             </div>
           </div>
-          <div className="icon-style">
-            <i style={{ color: "#f89820" }} class="fab fa-java" />
-            <div className="on-hover" id="on-hover">
-              Java
-            </div>
-          </div>
-        </div>
-        <div className="icons-gallery-bottom">
-          <div className="icon-style">
-            <i style={{ color: "#F0DB4F" }} class="fab fa-js-square" />
-            <div className="on-hover" id="on-hover">
-              JavaScript
-            </div>
-          </div>
-          <div className="icon-style">
-            <i style={{ color: "#264de4" }} class="fab fa-css3-alt" />
-            <div className="on-hover" id="on-hover">
-              CSS
-            </div>
-          </div>
-          <div className="icon-style">
-            <div>
-              {" "}
-              <DiMongodb style={{ color: "#589636" }} />{" "}
-            </div>
-            <div className="on-hover" id="on-hover">
-              MongoDB
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default Skills;

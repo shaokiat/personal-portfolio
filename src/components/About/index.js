@@ -1,8 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./About.css";
+import React from 'react';
+import './About.css';
 
-function About() {
+const About = function () {
   return (
     <section id="about" className="about">
       <div className="max-width">
@@ -12,13 +11,18 @@ function About() {
             <img src="images/portrait3.jpg" alt="" />
           </div>
           <div className="column right">
-            <div className="text">Hi there! I'm Shao Kiat!</div>
-            <p>This is my portfolio website! Check me out!</p>
+            <div className="text">
+              <text>Hi there! I&apos;m Shao Kiat!</text>
+            </div>
+            <p>This is my portfolio website!</p>
             <p>
-              I am a Penultimate Computer Science Undergraduate at National
-              portfolio website using React.js. I enjoy exploring new
-              programming ideas and documenting my progress as an aspiring
+              I am a Penultimate Computer Science Undergraduate at National University of Singapore.
+              I enjoy exploring new programming ideas and documenting my progress as an aspiring
               software engineer.
+            </p>
+            <p>
+              Recently, I have been diving more in-depth into web development using Next.js
+              and Graphql. I am also exploring web3.0 with an upcoming project!
             </p>
             <a
               href="https://shaokiat.github.io/shaokiat-blog/"
@@ -32,6 +36,6 @@ function About() {
       </div>
     </section>
   );
-}
+};
 
 export default About;

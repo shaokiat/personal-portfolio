@@ -1,8 +1,8 @@
-import React from "react";
-import "../../App.css";
-import "./HeroSection.css";
+import React from 'react';
+import '../../App.css';
+import './HeroSection.css';
 
-function HeroSection() {
+const HeroSection = function () {
   return (
     <section className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
@@ -10,11 +10,11 @@ function HeroSection() {
         <div className="content">
           <div className="text-1">Hello, my name is</div>
           <div className="text-2">Shao Kiat</div>
-          <div className="text-3">And I'm a Computer Science Undergraduate</div>
+          <div className="text-3"><text>And I&apos;m a Computer Science Undergraduate</text></div>
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default HeroSection;

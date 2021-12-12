@@ -78,6 +78,20 @@
   border-radius: 6px;
 }
 
+.tech-stack-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tech-stack-header {
+  font-size: 25px;
+  font-weight: 600;
+}
+
 .skills-content .right .java::before {
   width: 70%;
 }
@@ -94,16 +108,11 @@
   width: 65%;
 }
 
-.icons-gallery-top {
+.icons-gallery {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-}
-.icons-gallery-bottom {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
@@ -149,9 +158,7 @@
   .skills .skills-content .left .text {
     font-size: 19px;
   }
-  .icon-style {
-    font-size: 40px;
-  }
+
   .on-hover {
     font-size: 8px;
   }

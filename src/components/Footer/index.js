@@ -1,9 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Button } from "../Button";
-import "./Footer.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
-function Footer() {
+const Footer = function () {
   return (
     <div className="footer-container">
       {/* <section className="footer-subscription">
@@ -14,38 +13,38 @@ function Footer() {
                     </form>
                 </div>
             </section> */}
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               Shao Kiat
-              <i class="fab fa-typo3" />
+              <i className="fab fa-typo3" />
             </Link>
           </div>
-          <div class="social-icons">
+          <div className="social-icons">
             <a
-              class="social-icon-link github"
+              className="social-icon-link github"
               href="https://github.com/shaokiat"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
             >
-              <i class="fab fa-github" />
+              <i className="fab fa-github" />
             </a>
             <a
-              class="social-icon-link linkedin"
+              className="social-icon-link linkedin"
               href="https://www.linkedin.com/in/shaokiat/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </a>
           </div>
         </div>
       </section>
     </div>
   );
-}
+};
 
 export default Footer;
