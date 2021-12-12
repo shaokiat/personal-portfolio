@@ -1,7 +1,6 @@
 .project-item-container {
   display: flex;
   flex-direction: column;
-
   width: 30%;
   margin-right: 3%;
 }
@@ -113,4 +112,11 @@
   font-weight: 500;
   color: #696969;
   /* white-space: pre-line; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-item-container {
+    width: 90%;
+    margin-bottom: 100px;
+  }
 }

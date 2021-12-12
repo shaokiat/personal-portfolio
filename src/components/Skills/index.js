@@ -1,6 +1,7 @@
 import React from 'react';
 import {
-  SiTypescript, SiJavascript, SiGraphql, SiHtml5, SiCss3, SiMongodb, SiApollographql, SiNodedotjs, SiReact,
+  SiTypescript, SiJavascript, SiGraphql, SiHtml5, SiCss3,
+  SiMongodb, SiApollographql, SiNodedotjs, SiReact,
 } from 'react-icons/si';
 
 import './Skills.css';
