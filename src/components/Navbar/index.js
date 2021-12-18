@@ -38,8 +38,7 @@ const Navbar = function () {
           onClick={closeMobileMenu}
         >
           Shao Kiat
-          {' '}
-          <i className="fab fa-typo3" />
+          <img src="/images/sun.png" alt="" style={{ width: 40, height: 40 }} />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

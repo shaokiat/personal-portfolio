@@ -41,6 +41,12 @@ const Projects = function () {
                       Redux
                     </div>
                   </div>
+                  <div className="icon-style">
+                    <img src="/images/metamask.png" alt="" style={{ width: 40, height: 40 }} />
+                    <div className="on-hover" id="on-hover">
+                      MetaMask
+                    </div>
+                  </div>
                 </div>
                 )}
             />

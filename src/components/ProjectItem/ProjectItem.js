@@ -2,26 +2,29 @@ import React from 'react';
 import './ProjectItem.css';
 
 const ProjectItem = function (props) {
+  const {
+    src, url, title, description, githubLink, githubDescription, techstack,
+  } = props;
   return (
     <div className="project-item-container">
       <div className="project-item-pic-wrap">
-        <img src={props.src} alt="Project" className="project-item-img" />
+        <img src={src} alt="Project" className="project-item-img" />
       </div>
       <div className="project-link">
-        <a href={props.url} target="_blank" rel="noopener noreferrer">
-          {props.title}
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          {title}
         </a>
       </div>
       <div className="project-description">
-        {props.description}
+        {description}
       </div>
       <div className="project-link2">
-        <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
-          {props.githubDescription}
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          {githubDescription}
         </a>
       </div>
       <div className="tech-stack-container">
-        {props.techstack}
+        {techstack}
       </div>
     </div>
   );

@@ -18,5 +18,6 @@ module.exports = {
     'linebreak-style': ['error', 'windows'],
     'import/no-named-as-default': 0,
     'func-names': 'off',
+    'react/prop-types': 'off',
   },
 };

@@ -113,11 +113,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .icon-style {
-  margin: auto 0 auto 20px;
+  margin: auto 20px auto 0;
   color: black;
   font-size: 60px;
 }
@@ -157,9 +158,5 @@
 @media (max-width: 500px) {
   .skills .skills-content .left .text {
     font-size: 19px;
-  }
-
-  .on-hover {
-    font-size: 8px;
   }
 }
