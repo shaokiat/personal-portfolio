@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import {
   SiJavascript,
-  SiMongodb, SiNodedotjs, SiPython, SiReact, SiRedux, SiTypescript,
+  SiMongodb, SiNodedotjs, SiPython, SiReact, SiRedux, SiTailwindcss, SiTypescript,
 } from 'react-icons/si';
 import ProjectItem from '../ProjectItem/ProjectItem';
 
@@ -45,6 +45,12 @@ const Projects = function () {
                     <img src="/images/metamask.png" alt="" style={{ width: 40, height: 40 }} />
                     <div className="on-hover" id="on-hover">
                       MetaMask
+                    </div>
+                  </div>
+                  <div className="icon-style">
+                    <SiTailwindcss size={35} style={{ color: '#38bdf8' }} />
+                    <div className="on-hover" id="on-hover">
+                      TailwindCSS
                     </div>
                   </div>
                 </div>

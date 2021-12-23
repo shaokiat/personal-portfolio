@@ -37,8 +37,8 @@ const Navbar = function () {
           className="navbar-logo"
           onClick={closeMobileMenu}
         >
-          Shao Kiat
           <img src="/images/sun.png" alt="" style={{ width: 40, height: 40 }} />
+          Shao Kiat
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
