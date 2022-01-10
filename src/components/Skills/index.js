@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   SiTypescript, SiJavascript, SiGraphql, SiHtml5, SiCss3,
-  SiMongodb, SiApollographql, SiNodedotjs, SiReact,
+  SiMongodb, SiApollographql, SiNodedotjs, SiReact, SiAmazonaws,
 } from 'react-icons/si';
 
 import './Skills.css';
@@ -169,23 +169,30 @@ const Skills = function () {
           <div className="tech-stack-header">Others</div>
           <div className="icons-gallery">
             <div className="icon-style">
+              <img src="/images/aws.png" alt="" style={{ width: 60 }} />
+              <div className="on-hover" id="on-hover">
+                AWS
+              </div>
+            </div>
+            <div className="icon-style">
               <i style={{ color: '#F1502F' }} className="fab fa-git-alt" />
               <div className="on-hover" id="on-hover">
                 Git
               </div>
             </div>
             <div className="icon-style">
-              <img src="/images/sklearn.svg" alt="" style={{ width: 80 }} />
+              <img src="/images/sklearn.svg" alt="" style={{ width: 70 }} />
               <div className="on-hover" id="on-hover">
                 sklearn
               </div>
             </div>
             <div className="icon-style">
-              <img src="/images/streamlit.png" alt="" style={{ width: 70 }} />
+              <img src="/images/streamlit.png" alt="" style={{ width: 60 }} />
               <div className="on-hover" id="on-hover">
                 Streamlit
               </div>
             </div>
+
           </div>
 
         </div>

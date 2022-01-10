@@ -22,7 +22,8 @@ const About = function () {
             </p>
             <p>
               Recently, I have been diving more in-depth into web development using Next.js
-              and Graphql. I am also exploring web3.0 with an upcoming project!
+              and Graphql. I am also exploring Web3.0 with decentralized application on various
+              crypto chains!
             </p>
             <a
               href="https://shaokiat.github.io/shaokiat-blog/"
