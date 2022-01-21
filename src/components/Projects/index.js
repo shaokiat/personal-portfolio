@@ -17,7 +17,7 @@ const Projects = function () {
               src="images/cryptoverse.png"
               title="Cryptoverse"
               description="A Personal project to explore RapidApi and Web3.0.
-              Connect your MetaMask wallet and view daily Crypto News. (Update: Some APIs used are current behind paywall so is unable to access."
+              Connect your MetaMask wallet and view daily Crypto News. (Update: Some APIs used are currently behind paywall so is unable to access.)"
               url="https://crypto-app-shaokiat.vercel.app/"
               githubLink="https://github.com/shaokiat/crypto_app"
               githubDescription="View source code on GitHub"
