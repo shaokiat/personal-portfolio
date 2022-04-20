@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import {
   SiJavascript,
-  SiMongodb, SiNodedotjs, SiPython, SiReact, SiRedux, SiTailwindcss, SiTypescript,
+  SiMongodb, SiNodedotjs, SiPython, SiReact, SiRedux, SiSocketdotio, SiTailwindcss, SiTypescript,
 } from 'react-icons/si';
 import ProjectItem from '../ProjectItem/ProjectItem';
 
@@ -14,11 +14,54 @@ const Projects = function () {
         <div className="projects_wrapper">
           <div className="projects_items">
             <ProjectItem
+              src="images/leetgrindr.png"
+              title="LeetGrindr"
+              description="A personal project to create an interactive code editor using websockets.
+              Let's do some coding interview with your friends using LeetGrindr."
+              url="https://leetgrindr-shaokiat.vercel.app/"
+              githubLink="https://github.com/shaokiat/leetgrindr"
+              githubDescription="View source code on GitHub"
+              techstack={(
+                <div className="icons-gallery">
+                  <div className="icon-style">
+                    <img src="/images/nextjs.svg" alt="" style={{ width: 40, height: 40 }} />
+                    <div className="on-hover" id="on-hover">
+                      NextJS
+                    </div>
+                  </div>
+                  <div className="icon-style">
+                    <SiTypescript size={35} style={{ color: '#007acc' }} />
+                    <div className="on-hover" id="on-hover">
+                      TypeScript
+                    </div>
+                  </div>
+                  <div className="icon-style">
+                    <SiSocketdotio size={35} />
+                    <div className="on-hover" id="on-hover">
+                      SocketIo
+                    </div>
+                  </div>
+                  <div className="icon-style">
+                    <SiTailwindcss size={35} style={{ color: '#38bdf8' }} />
+                    <div className="on-hover" id="on-hover">
+                      TailwindCSS
+                    </div>
+                  </div>
+                  <div className="icon-style">
+                    <img src="/images/redis.png" alt="" style={{ width: 35, height: 35 }} />
+                    <div className="on-hover" id="on-hover">
+                      Redis
+                    </div>
+                  </div>
+                </div>
+                )}
+            />
+            <ProjectItem
               src="images/cryptoverse.png"
               title="Cryptoverse"
-              description="A Personal project to explore RapidApi and Web3.0.
-              Connect your MetaMask wallet and view daily Crypto News. (Update: Some APIs used are currently behind paywall so is unable to access.)"
-              url="https://crypto-app-shaokiat.vercel.app/"
+              description="A personal project to explore RapidApi and Web3.0.
+              Connect your MetaMask wallet and view daily Crypto News. (Update: Some APIs used are currently behind paywall so project is offline.)"
+              // url="https://crypto-app-shaokiat.vercel.app/"
               githubLink="https://github.com/shaokiat/crypto_app"
               githubDescription="View source code on GitHub"
               techstack={(
