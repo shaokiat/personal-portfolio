@@ -6,10 +6,9 @@ import {
   SiHtml5,
   SiCss3,
   SiMongodb,
-  SiApollographql,
   SiNodedotjs,
   SiReact,
-  SiAmazonaws,
+  SiJava,
 } from 'react-icons/si'
 
 import './Skills.css'
@@ -152,21 +151,17 @@ const Skills = function () {
               </div>
             </div>
             <div className="icon-style">
-              <div>
-                <SiApollographql size={50} style={{ color: '#E10098' }} />
-              </div>
-              <div className="on-hover" id="on-hover">
-                Apollo
-              </div>
-            </div>
-            <div className="icon-style">
-              <i style={{ color: '#306998' }} className="fab fa-python" />
+              <img
+                src="/images/python.png"
+                alt=""
+                style={{ width: 50, height: 50 }}
+              />
               <div className="on-hover" id="on-hover">
                 Python
               </div>
             </div>
             <div className="icon-style">
-              <i style={{ color: '#f89820' }} className="fab fa-java" />
+              <SiJava size={50} style={{ color: '#f89820' }} />
               <div className="on-hover" id="on-hover">
                 Java
               </div>
@@ -183,15 +178,13 @@ const Skills = function () {
           <div className="tech-stack-header">Others</div>
           <div className="icons-gallery">
             <div className="icon-style">
-              <img src="/images/aws.png" alt="" style={{ width: 60 }} />
+              <img
+                src="/images/aws.png"
+                alt=""
+                style={{ width: 60, height: 36 }}
+              />
               <div className="on-hover" id="on-hover">
                 AWS
-              </div>
-            </div>
-            <div className="icon-style">
-              <i style={{ color: '#F1502F' }} className="fab fa-git-alt" />
-              <div className="on-hover" id="on-hover">
-                Git
               </div>
             </div>
             <div className="icon-style">
@@ -201,9 +194,9 @@ const Skills = function () {
               </div>
             </div>
             <div className="icon-style">
-              <img src="/images/streamlit.png" alt="" style={{ width: 60 }} />
+              <img src="/images/solidity.png" alt="" style={{ width: 50 }} />
               <div className="on-hover" id="on-hover">
-                Streamlit
+                Solidity
               </div>
             </div>
           </div>
