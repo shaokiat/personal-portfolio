@@ -23,7 +23,7 @@
 
 .skills .skills-content .left p {
   text-align: justify;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .skills .skills-content .left a {
@@ -69,7 +69,7 @@
 }
 
 .skills .skills-content .right .line::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   left: 0;
@@ -93,19 +93,19 @@
 }
 
 .skills-content .right .java::before {
-  width: 70%;
+  width: 90%;
 }
 .skills-content .right .js::before {
-  width: 85%;
+  width: 95%;
 }
 .skills-content .right .python::before {
-  width: 80%;
+  width: 95%;
 }
 .skills-content .right .html::before {
-  width: 70%;
+  width: 85%;
 }
 .skills-content .right .css::before {
-  width: 65%;
+  width: 80%;
 }
 
 .icons-gallery {

@@ -23,10 +23,11 @@ const Skills = function () {
           <div className="column left">
             <div className="text">My Creative Skills and Experiences</div>
             <p>
-              2021 Summer internship at the Data Science team in Micron gave me
-              a strong introduction to solving real-world problems with data
-              science and I get to experienced Machine Learning concepts
-              together with data visualization tools.
+              2022 Summer internship at Nested Technologies as a Software
+              Engineering Intern gave me a strong introduction to DevOps using
+              AWS hosting services such as EKS and ECS. I had the opportunity to
+              set up and ensure scalability of the company&apos;s web
+              applications with proper CI/CD.
             </p>
             <p>
               Practiced Software Engineering concepts taught in school through
@@ -34,8 +35,8 @@ const Skills = function () {
               backend capabilities using Non-SQL MongoDB database.
             </p>
             <p>
-              Currently contributing to a local start-up working on a web
-              project.
+              Currently exploring NextJS web framework capabilities with
+              personal projects.
             </p>
             <a
               href="https://github.com/shaokiat"
@@ -48,37 +49,37 @@ const Skills = function () {
           <div className="column right">
             <div className="bars">
               <div className="info">
-                <span>JS</span>
-                <span>85%</span>
+                <span>Enthusiasm</span>
+                <span>95%</span>
               </div>
               <div className="line js" />
             </div>
             <div className="bars">
               <div className="info">
-                <span>Python</span>
-                <span>80%</span>
+                <span>Adaptability</span>
+                <span>95%</span>
               </div>
               <div className="line python" />
             </div>
             <div className="bars">
               <div className="info">
-                <span>Java</span>
-                <span>70%</span>
+                <span>Team Work</span>
+                <span>90%</span>
               </div>
               <div className="line java" />
             </div>
 
             <div className="bars">
               <div className="info">
-                <span>HTML</span>
-                <span>70%</span>
+                <span>Problem-solving</span>
+                <span>85%</span>
               </div>
               <div className="line html" />
             </div>
             <div className="bars">
               <div className="info">
-                <span>CSS</span>
-                <span>65%</span>
+                <span>Positivity</span>
+                <span>80%</span>
               </div>
               <div className="line css" />
             </div>
