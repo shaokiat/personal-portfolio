@@ -1,10 +1,18 @@
-import React from 'react';
+import React from 'react'
 import {
-  SiTypescript, SiJavascript, SiGraphql, SiHtml5, SiCss3,
-  SiMongodb, SiApollographql, SiNodedotjs, SiReact, SiAmazonaws,
-} from 'react-icons/si';
+  SiTypescript,
+  SiJavascript,
+  SiGraphql,
+  SiHtml5,
+  SiCss3,
+  SiMongodb,
+  SiApollographql,
+  SiNodedotjs,
+  SiReact,
+  SiAmazonaws,
+} from 'react-icons/si'
 
-import './Skills.css';
+import './Skills.css'
 
 const Skills = function () {
   return (
@@ -26,7 +34,8 @@ const Skills = function () {
               backend capabilities using Non-SQL MongoDB database.
             </p>
             <p>
-              Currently contributing to a local start-up working on a web project.
+              Currently contributing to a local start-up working on a web
+              project.
             </p>
             <a
               href="https://github.com/shaokiat"
@@ -113,7 +122,11 @@ const Skills = function () {
               </div>
             </div>
             <div className="icon-style">
-              <img src="/images/nextjs.svg" alt="" style={{ width: 70, height: 50 }} />
+              <img
+                src="/images/nextjs.svg"
+                alt=""
+                style={{ width: 70, height: 50 }}
+              />
               <div className="on-hover" id="on-hover">
                 NextJS
               </div>
@@ -192,13 +205,11 @@ const Skills = function () {
                 Streamlit
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

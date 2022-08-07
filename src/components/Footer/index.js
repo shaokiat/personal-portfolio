@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import './Footer.css';
+import React from 'react'
+import { Link } from 'react-scroll'
+import './Footer.css'
 
 const Footer = function () {
   return (
@@ -17,12 +17,22 @@ const Footer = function () {
               duration={500}
               className="social-logo"
             >
-              <img src="/images/sun.png" alt="" style={{ width: 40, height: 40 }} />
+              <img
+                src="/images/sun.png"
+                alt=""
+                style={{ width: 40, height: 40 }}
+              />
               Shao Kiat
             </Link>
           </div>
           <div className="resume-link">
-            <a href="https://shaokiat.github.io/shaokiat-blog/pdf/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+            <a
+              href="https://shaokiat.github.io/shaokiat-blog/pdf/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Resume
+            </a>
           </div>
           <div className="social-icons">
             <a
@@ -47,7 +57,7 @@ const Footer = function () {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

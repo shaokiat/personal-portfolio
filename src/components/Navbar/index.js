@@ -1,28 +1,28 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-scroll'
 
-import './Navbar.css';
+import './Navbar.css'
 
 const Navbar = function () {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  const [click, setClick] = useState(false)
+  const [button, setButton] = useState(true)
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false)
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
+      setButton(false)
     } else {
-      setButton(true);
+      setButton(true)
     }
-  };
+  }
 
   useEffect(() => {
-    showButton();
-  }, []);
+    showButton()
+  }, [])
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener('resize', showButton)
 
   return (
     <nav className="navbar">
@@ -117,7 +117,7 @@ const Navbar = function () {
         </ul>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

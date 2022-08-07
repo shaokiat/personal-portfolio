@@ -1,5 +1,5 @@
-import React from 'react';
-import './About.css';
+import React from 'react'
+import './About.css'
 
 const About = function () {
   return (
@@ -16,14 +16,14 @@ const About = function () {
             </div>
             <p>This is my portfolio website!</p>
             <p>
-              I am a Penultimate Computer Science Undergraduate at National University of Singapore.
-              I enjoy exploring new programming ideas and documenting my progress as an aspiring
-              software engineer.
+              I am a Penultimate Computer Science Undergraduate at National
+              University of Singapore. I enjoy exploring new programming ideas
+              and documenting my progress as an aspiring software engineer.
             </p>
             <p>
-              Recently, I have been diving more in-depth into web development using Next.js
-              and Graphql. I am also exploring Web3.0 with decentralized application on various
-              crypto chains!
+              Recently, I have been diving more in-depth into web development
+              using Next.js and Graphql. I am also exploring Web3.0 with
+              decentralized application on various crypto chains!
             </p>
             <a
               href="https://shaokiat.github.io/shaokiat-blog/"
@@ -36,7 +36,7 @@ const About = function () {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

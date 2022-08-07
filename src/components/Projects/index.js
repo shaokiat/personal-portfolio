@@ -1,10 +1,17 @@
-import React from 'react';
-import './Projects.css';
+import React from 'react'
+import './Projects.css'
 import {
   SiJavascript,
-  SiMongodb, SiNodedotjs, SiPython, SiReact, SiRedux, SiSocketdotio, SiTailwindcss, SiTypescript,
-} from 'react-icons/si';
-import ProjectItem from '../ProjectItem/ProjectItem';
+  SiMongodb,
+  SiNodedotjs,
+  SiPython,
+  SiReact,
+  SiRedux,
+  SiSocketdotio,
+  SiTailwindcss,
+  SiTypescript,
+} from 'react-icons/si'
+import ProjectItem from '../ProjectItem/ProjectItem'
 
 const Projects = function () {
   return (
@@ -21,10 +28,14 @@ const Projects = function () {
               url="https://leetgrindr-shaokiat.vercel.app/"
               githubLink="https://github.com/shaokiat/leetgrindr"
               githubDescription="View source code on GitHub"
-              techstack={(
+              techstack={
                 <div className="icons-gallery">
                   <div className="icon-style">
-                    <img src="/images/nextjs.svg" alt="" style={{ width: 40, height: 40 }} />
+                    <img
+                      src="/images/nextjs.svg"
+                      alt=""
+                      style={{ width: 40, height: 40 }}
+                    />
                     <div className="on-hover" id="on-hover">
                       NextJS
                     </div>
@@ -48,13 +59,17 @@ const Projects = function () {
                     </div>
                   </div>
                   <div className="icon-style">
-                    <img src="/images/redis.png" alt="" style={{ width: 35, height: 35 }} />
+                    <img
+                      src="/images/redis.png"
+                      alt=""
+                      style={{ width: 35, height: 35 }}
+                    />
                     <div className="on-hover" id="on-hover">
                       Redis
                     </div>
                   </div>
                 </div>
-                )}
+              }
             />
             <ProjectItem
               src="images/cryptoverse.png"
@@ -64,10 +79,14 @@ const Projects = function () {
               // url="https://crypto-app-shaokiat.vercel.app/"
               githubLink="https://github.com/shaokiat/crypto_app"
               githubDescription="View source code on GitHub"
-              techstack={(
+              techstack={
                 <div className="icons-gallery">
                   <div className="icon-style">
-                    <img src="/images/nextjs.svg" alt="" style={{ width: 40, height: 40 }} />
+                    <img
+                      src="/images/nextjs.svg"
+                      alt=""
+                      style={{ width: 40, height: 40 }}
+                    />
                     <div className="on-hover" id="on-hover">
                       NextJS
                     </div>
@@ -85,7 +104,11 @@ const Projects = function () {
                     </div>
                   </div>
                   <div className="icon-style">
-                    <img src="/images/metamask.png" alt="" style={{ width: 40, height: 40 }} />
+                    <img
+                      src="/images/metamask.png"
+                      alt=""
+                      style={{ width: 40, height: 40 }}
+                    />
                     <div className="on-hover" id="on-hover">
                       MetaMask
                     </div>
@@ -97,7 +120,7 @@ const Projects = function () {
                     </div>
                   </div>
                 </div>
-                )}
+              }
             />
             <ProjectItem
               src="images/rhapp.jpg"
@@ -107,7 +130,7 @@ const Projects = function () {
               url="https://www.rhapp.lol/"
               githubLink="https://www.instagram.com/rhdevs/"
               githubDescription="Visit RHDEVs on Instagram"
-              techstack={(
+              techstack={
                 <div className="icons-gallery">
                   <div className="icon-style">
                     <SiReact size={35} style={{ color: '#61DBFB' }} />
@@ -146,7 +169,7 @@ const Projects = function () {
                     </div>
                   </div>
                 </div>
-                )}
+              }
             />
             <ProjectItem
               src="images/sk-blog.png"
@@ -156,7 +179,7 @@ const Projects = function () {
               url="https://shaokiat.github.io/shaokiat-blog/docs/intro"
               githubLink="https://github.com/shaokiat/shaokiat-blog"
               githubDescription="View source code on GitHub"
-              techstack={(
+              techstack={
                 <div className="icons-gallery">
                   <div className="icon-style">
                     <SiReact size={35} style={{ color: '#61DBFB' }} />
@@ -171,19 +194,23 @@ const Projects = function () {
                     </div>
                   </div>
                   <div className="icon-style">
-                    <img src="/images/docusaurus.png" alt="" style={{ width: 40, height: 40 }} />
+                    <img
+                      src="/images/docusaurus.png"
+                      alt=""
+                      style={{ width: 40, height: 40 }}
+                    />
                     <div className="on-hover" id="on-hover">
                       Docusaurus
                     </div>
                   </div>
                 </div>
-                )}
+              }
             />
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:react/recommended', 'airbnb'],
+  extends: ['plugin:react/recommended', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -15,9 +15,9 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'linebreak-style': ['error', 'windows'],
     'import/no-named-as-default': 0,
     'func-names': 'off',
     'react/prop-types': 'off',
+    quotes: [2, 'single', { avoidEscape: true }],
   },
-};
+}
