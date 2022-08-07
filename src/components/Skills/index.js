@@ -9,6 +9,8 @@ import {
   SiNodedotjs,
   SiReact,
   SiJava,
+  SiDocker,
+  SiKubernetes,
 } from 'react-icons/si'
 
 import './Skills.css'
@@ -197,6 +199,18 @@ const Skills = function () {
               <img src="/images/solidity.png" alt="" style={{ width: 50 }} />
               <div className="on-hover" id="on-hover">
                 Solidity
+              </div>
+            </div>
+            <div className="icon-style">
+              <SiDocker size={50} style={{ color: '#0db7ed' }} />{' '}
+              <div className="on-hover" id="on-hover">
+                Docker
+              </div>
+            </div>
+            <div className="icon-style">
+              <SiKubernetes size={50} style={{ color: '#326ce5' }} />{' '}
+              <div className="on-hover" id="on-hover">
+                Kubernetes
               </div>
             </div>
           </div>

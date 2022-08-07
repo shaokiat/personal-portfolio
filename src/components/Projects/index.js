@@ -151,7 +151,11 @@ const Projects = function () {
                     </div>
                   </div>
                   <div className="icon-style">
-                    <SiPython size={35} style={{ color: '#306998' }} />
+                    <img
+                      src="/images/python.png"
+                      alt=""
+                      style={{ width: 35, height: 35 }}
+                    />
                     <div className="on-hover" id="on-hover">
                       Python
                     </div>
