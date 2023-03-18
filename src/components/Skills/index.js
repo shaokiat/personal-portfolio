@@ -22,7 +22,7 @@ const Skills = function () {
         <h1 className="skills-title">My Skills</h1>
         <div className="skills-content">
           <div className="column left">
-            <div className="text">My Creative Skills and Experiences</div>
+            <div className="text">My Skills and Experiences</div>
             <p>
               2022 Summer internship at Nested Technologies as a Software
               Engineering Intern gave me a strong introduction to DevOps using
@@ -47,7 +47,7 @@ const Skills = function () {
               Check out my GitHub
             </a>
           </div>
-          <div className="column right">
+          {/* <div className="column right">
             <div className="bars">
               <div className="info">
                 <span>Enthusiasm</span>
@@ -84,7 +84,7 @@ const Skills = function () {
               </div>
               <div className="line css" />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="tech-stack-container">
           <div className="tech-stack-header">Frontend</div>

@@ -176,7 +176,7 @@ const Projects = function () {
               }
             />
             <ProjectItem
-              src="images/sk-blog.png"
+              src="images/blog.jpg"
               title="Personal Blog"
               description="A blog project created using Docusaurus to document my journey
               as an aspiring Software Engineer and hopefully serve as a guide for others like me."
