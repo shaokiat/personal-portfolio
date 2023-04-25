@@ -78,6 +78,47 @@
   border-radius: 6px;
 }
 
+.skills .card {
+  margin: 0 10px 30px 10px;
+}
+
+.skills .card p {
+  line-height: 1.7em;
+  font-weight: 500;
+  color: #696969;
+  font-size: 1rem;
+}
+
+.skills .card .title {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+  color: #252e48;
+}
+
+.skills .card .duration {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #252e48;
+}
+
+.card .techstack-container {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  flex-direction: column;
+  /* width: 100%; */
+}
+.card .icons-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 40px 0;
+}
+
 .tech-stack-container {
   margin-top: 50px;
   display: flex;
