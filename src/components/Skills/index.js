@@ -182,7 +182,7 @@ const Experiences = () => {
 successful code commits."
             experience2="Set up automated UI testing for the web-application."
             experience3="Develop Docker containers for project in preparation for production and scaling."
-            duration="January 2022 - Present | Singapore"
+            duration="Jan 2023 - Present | Singapore"
             techstack={
               <div className="icons-gallery">
                 <div className="icon-style">
@@ -290,7 +290,7 @@ scrolling pages."
 of engineers having access to it."
             experience2="Conducted non-linear regression models to map the correction offset of manufacturing defects in the wafers,
 raising production yield."
-            duration="January 2022 - Present | Singapore"
+            duration="May 2021 - Jul 2021 | Singapore"
             techstack={
               <div className="icons-gallery">
                 <div className="icon-style">
