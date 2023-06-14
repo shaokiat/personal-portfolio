@@ -1272,6 +1272,26 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@calcom/embed-core@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@calcom/embed-core/-/embed-core-1.2.1.tgz#0a4423b05d5cab2744a9ec68fcc56a7f1698e17e"
+  integrity sha512-KDL1gjWiixDmaLRT/Ps7Y2MgXfe1NPkVr9UG/VkkJnIVxBz8M0tLBdGTRZpLzwVpsN7VsK/Wb1p9dZ8SYTKitw==
+
+"@calcom/embed-react@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@calcom/embed-react/-/embed-react-1.1.1.tgz#b511ada72473d1e1f5b2d64d624480af75ddca06"
+  integrity sha512-K27CYyrHKzkc7kWNhLnrZPh0+uJy2VAab9Z8e6jKylYNWBraiAb9zyx8hOFcAMpHHOHXb1XBN76HLm3Ug7Js3A==
+  dependencies:
+    "@calcom/embed-core" "1.2.1"
+    "@calcom/embed-snippet" "1.0.9"
+
+"@calcom/embed-snippet@1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@calcom/embed-snippet/-/embed-snippet-1.0.9.tgz#018fcbadf7844290aaefddbdf60d765d8b4ce173"
+  integrity sha512-x8/RZxYUQ3uPZButjHWiZ5Kz00+Y9v+NK2XEklnKC2JslDEzRU+KV/g8Lk5aF/xweHSioKwVLa5xBmrfR9deKg==
+  dependencies:
+    "@calcom/embed-core" "1.2.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
