@@ -174,7 +174,7 @@ const Experiences = () => {
   return (
     <div>
       <Row justify={'space-around'}>
-        <Col span={22} offset={1}>
+        <Col md={24} lg={{ span: 20, offset: 2 }} xl={{ span: 16, offset: 3 }}>
           <Card
             company="Angsana Technology"
             position="Software Engineer Intern"
@@ -228,7 +228,7 @@ successful code commits."
         </Col>
       </Row>
       <Row justify={'space-around'}>
-        <Col span={22} offset={1}>
+        <Col md={24} lg={{ span: 20, offset: 2 }} xl={{ span: 16, offset: 3 }}>
           <Card
             company="Nested Technologies"
             position="Software Engineer Intern"
@@ -282,7 +282,7 @@ scrolling pages."
         </Col>
       </Row>
       <Row justify={'space-around'}>
-        <Col span={22} offset={1}>
+        <Col md={24} lg={{ span: 20, offset: 2 }} xl={{ span: 16, offset: 3 }}>
           <Card
             company="Micron Semiconductor Asia"
             position="Data Science Intern"
