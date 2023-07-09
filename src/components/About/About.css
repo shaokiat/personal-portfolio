@@ -1,6 +1,6 @@
 .about {
   background: #fff;
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
 }
 
 .about .about-content {
@@ -17,8 +17,8 @@ h1 {
   margin-bottom: 20px;
 }
 
-.max-width {
-  max-width: 1300px;
+.about .max-width {
+  max-width: 1100px;
   padding: 0 60px;
   margin: auto;
 }
@@ -44,9 +44,19 @@ h1 {
   margin-bottom: 10px;
 }
 
+.about .title {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+  color: #252e48;
+}
+
 .about .about-content .right p {
-  text-align: justify;
-  font-family: "Poppins", sans-serif;
+  line-height: 1.7em;
+  font-weight: 500;
+  color: #252e48;
+  font-size: 1.1rem;
 }
 
 .about .about-content .right a {
@@ -60,19 +70,12 @@ h1 {
   border-radius: 6px;
   border: 2px solid crimson;
   transition: all 0.3s ease;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .about .about-content .right a:hover {
   color: crimson;
   background: none;
-}
-
-.text {
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 1104px) {
@@ -82,13 +85,13 @@ h1 {
   }
 }
 @media (max-width: 991px) {
-  .max-width {
+  .about .max-width {
     padding: 0 50px;
   }
 }
 
-@media (max-width: 947px) {
-  .max-width {
+@media (max-width: 768px) {
+  .about .max-width {
     max-width: 930px;
   }
   .about .about-content .column {
@@ -101,5 +104,9 @@ h1 {
   }
   .about .about-content .right {
     flex: 100%;
+  }
+  .about .about-content .left img {
+    height: 100%;
+    width: 100%;
   }
 }

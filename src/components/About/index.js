@@ -11,7 +11,7 @@ const About = function () {
             <img src="images/portrait.jpg" alt="" />
           </div>
           <div className="column right">
-            <div className="text">
+            <div className="title">
               <text>Hi there! I&apos;m Shao Kiat!</text>
             </div>
             <p>This is my portfolio website!</p>
