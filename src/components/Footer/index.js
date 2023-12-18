@@ -27,7 +27,7 @@ const Footer = function () {
           </div>
           <div className="resume-link">
             <a
-              href="https://shaokiat.xyz/resume.pdf"
+              href="https://shaokiat.vercel.app/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
