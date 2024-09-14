@@ -16,14 +16,12 @@ const About = function () {
             </div>
             <p>This is my portfolio website!</p>
             <p>
-              I am a Final Year Computer Science Undergraduate at National
-              University of Singapore. I enjoy exploring new programming ideas
-              and documenting my progress as an aspiring software engineer.
+              I am a Data Scientist at Micron with a Computer Science degree from NUS. 
+              I am passionate about leveraging data to solve complex problems and drive innovation. 
+              Focused on transforming data into actionable insights, I thrive on challenges that push the boundaries of technology and efficiency. 
             </p>
             <p>
-              Recently, I have been diving more in-depth into web development
-              using Next.js with TailwindCSS. I am also exploring Web3.0 with
-              decentralized application on various crypto chains!
+              Let&apos;s connect and explore new possibilities!
             </p>
             <a
               href="https://shaokiat.github.io/shaokiat-blog/"

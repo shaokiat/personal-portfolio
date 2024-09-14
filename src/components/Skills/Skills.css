@@ -106,7 +106,7 @@
 .card .techstack-container {
   display: flex;
   justify-content: left;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   /* width: 100%; */
 }

@@ -8,15 +8,18 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiReact,
-  SiJava,
   SiDocker,
   SiKubernetes,
+  SiGithubactions,
+  SiPuppeteer,
+  SiJest,
+  SiAngular,
+  SiOpencv
 } from 'react-icons/si'
+import { FaJava } from 'react-icons/fa';
+
 import { Row, Col } from 'antd'
 import './Skills.css'
-import { SiGithubactions } from 'react-icons/si'
-import { SiPuppeteer } from 'react-icons/si'
-import { SiJest } from 'react-icons/si'
 
 const TechStack = () => {
   return (
@@ -97,7 +100,7 @@ const TechStack = () => {
           </div>
         </div>
         <div className="icon-style">
-          <SiJava size={50} style={{ color: '#f89820' }} />
+          <FaJava size={50} style={{ color: '#f89820' }} />
           <div className="on-hover" id="on-hover">
             Java
           </div>
@@ -176,13 +179,81 @@ const Experiences = () => {
       <Row justify={'space-around'}>
         <Col md={24} lg={{ span: 20, offset: 2 }} xl={{ span: 16, offset: 3 }}>
           <Card
+            company="Micron Semiconductor Asia"
+            position="Data Scientist"
+            experience1="Led development efforts of a video analytics project utilizing object and anomaly detection, achieving a potential
+            annual savings of $2 million a year."
+            experience2="Directed predictive maintenance project for manufacturing tools by collaborating with engineers, and applying statistical
+            and machine learning models. Achieved impactful cost savings and improved Manufacturing Availability."
+            experience3="Developed essential edge scripts on Raspberry Pi for anomaly detection project, significantly improving real-time monitoring capabilities."
+            duration="Jul 2021 - Present | Singapore"
+            techstack={
+              <div className="icons-gallery">
+                <div className="icon-style">
+                  <img
+                    src="/images/python.png"
+                    alt=""
+                    style={{ width: 40, height: 40 }}
+                  />
+                  <div className="on-hover" id="on-hover">
+                    Python
+                  </div>
+                </div>
+                <div className="icon-style">
+                  <img
+                    src="/images/gcp.png"
+                    alt=""
+                    style={{ width: 40, height: 40 }}
+                  />
+                  <div className="on-hover" id="on-hover">
+                    GCP
+                  </div>
+                </div>
+                <div className="icon-style">
+                  <div>
+                    <SiTypescript size={40} style={{ color: '#007acc' }} />
+                  </div>
+                  <div className="on-hover" id="on-hover">
+                    TypeScript
+                  </div>
+                </div>
+                <div className="icon-style">
+                  <div>
+                    <SiAngular size={40} style={{ color: '#de022d' }} />
+                  </div>
+                  <div className="on-hover" id="on-hover">
+                    Angular
+                  </div>
+                </div>
+                <div className="icon-style">
+                  <div>
+                    <SiOpencv size={40}  />
+                  </div>
+                  <div className="on-hover" id="on-hover">
+                    OpenCV
+                  </div>
+                </div>
+                <div className="icon-style">
+                  <img src="/images/sklearn.svg" alt="" style={{ width: 60 }} />
+                  <div className="on-hover" id="on-hover">
+                    sklearn
+                  </div>
+                </div>
+              </div>
+            }
+          />
+        </Col>
+      </Row>
+      <Row justify={'space-around'}>
+        <Col md={24} lg={{ span: 20, offset: 2 }} xl={{ span: 16, offset: 3 }}>
+          <Card
             company="Angsana Technology"
-            position="Software Engineer Intern"
+            position="Software Engineer"
             experience1="Implemented CI pipeline such as API and end-to-end tests, and automating them using GitHub Actions, ensuring
 successful code commits."
             experience2="Set up automated UI testing for the web-application."
             experience3="Develop Docker containers for project in preparation for production and scaling."
-            duration="Jan 2023 - Present | Singapore"
+            duration="Aug 2020 - Jul 2021 | Singapore"
             techstack={
               <div className="icons-gallery">
                 <div className="icon-style">
@@ -227,7 +298,7 @@ successful code commits."
           />
         </Col>
       </Row>
-      <Row justify={'space-around'}>
+      {/* <Row justify={'space-around'}>
         <Col md={24} lg={{ span: 20, offset: 2 }} xl={{ span: 16, offset: 3 }}>
           <Card
             company="Nested Technologies"
@@ -280,40 +351,8 @@ scrolling pages."
             }
           />
         </Col>
-      </Row>
-      <Row justify={'space-around'}>
-        <Col md={24} lg={{ span: 20, offset: 2 }} xl={{ span: 16, offset: 3 }}>
-          <Card
-            company="Micron Semiconductor Asia"
-            position="Data Science Intern"
-            experience1="Developed a data science web application by integrating existing algorithms into usable interface, resulted in 50%
-of engineers having access to it."
-            experience2="Conducted non-linear regression models to map the correction offset of manufacturing defects in the wafers,
-raising production yield."
-            duration="May 2021 - Jul 2021 | Singapore"
-            techstack={
-              <div className="icons-gallery">
-                <div className="icon-style">
-                  <img
-                    src="/images/python.png"
-                    alt=""
-                    style={{ width: 40, height: 40 }}
-                  />
-                  <div className="on-hover" id="on-hover">
-                    Python
-                  </div>
-                </div>
-                <div className="icon-style">
-                  <img src="/images/sklearn.svg" alt="" style={{ width: 60 }} />
-                  <div className="on-hover" id="on-hover">
-                    sklearn
-                  </div>
-                </div>
-              </div>
-            }
-          />
-        </Col>
-      </Row>
+      </Row> */}
+
     </div>
   )
 }

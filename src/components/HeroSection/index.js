@@ -11,7 +11,7 @@ const HeroSection = function () {
           <div className="text-1">Hello, my name is</div>
           <div className="text-2">Shao Kiat</div>
           <div className="text-3">
-            <text>And I&apos;m a Computer Science Undergraduate</text>
+            <text>And I&apos;m a Data Scientist</text>
           </div>
         </div>
       </div>

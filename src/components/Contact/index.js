@@ -29,11 +29,11 @@ const Contact = function () {
               </a>
             </div>
           </div>
-          <div className="caldotcom-link">
+          {/* <div className="caldotcom-link">
             <a href="https://cal.com/shaokiat" target="_blank" rel="noreferrer">
               cal.com/shaokiat
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
