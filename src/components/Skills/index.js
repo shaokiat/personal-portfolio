@@ -186,7 +186,7 @@ const Experiences = () => {
             experience2="Directed predictive maintenance project for manufacturing tools by collaborating with engineers, and applying statistical
             and machine learning models. Achieved impactful cost savings and improved Manufacturing Availability."
             experience3="Developed essential edge scripts on Raspberry Pi for anomaly detection project, significantly improving real-time monitoring capabilities."
-            duration="Jul 2022 - Present | Singapore"
+            duration="Jul 2023 - Present | Singapore"
             techstack={
               <div className="icons-gallery">
                 <div className="icon-style">
@@ -253,7 +253,7 @@ const Experiences = () => {
 successful code commits."
             experience2="Set up automated UI testing for the web-application."
             experience3="Develop Docker containers for project in preparation for production and scaling."
-            duration="Aug 2021 - Jul 2022 | Singapore"
+            duration="Aug 2022 - Jul 2023 | Singapore"
             techstack={
               <div className="icons-gallery">
                 <div className="icon-style">
